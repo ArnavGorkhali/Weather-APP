@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-fuild{
+  max-width: 100%;
+}
+
+Navbar Navbar-Nav {
+width: 100px;
+padding: 20px 50px;
+justify-content: space-between;
+display: inline;
+}
+
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(
+      #2193b0,
+      #6dd5ed
+    );
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.box:hover {
+  transform: scale(1.1);
+}
+
+.card-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+}
+
+Nav {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;  padding:10px;
+} 
+li Nav-Link{
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+Nav.Link:hover {
+  background-color: yellow;
+}
+
